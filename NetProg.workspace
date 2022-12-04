@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="NetProg" Database="" Version="10000">
+  <Project Name="DaytimeClient" Path="Daytime(UDP)/DaytimeClient/DaytimeClient/DaytimeClient.project" Active="No"/>
+  <Project Name="DaytimeServer" Path="Daytime(UDP)/DaytimeServer/DaytimeServer/DaytimeServer.project" Active="No"/>
+  <Project Name="EchoClient" Path="Echo(TCP)/EchoClient/EchoClient/EchoClient.project" Active="Yes"/>
+  <Project Name="EchoServer" Path="Echo(TCP)/EchoServer/EchoServer/EchoServer.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="DaytimeClient" ConfigName="Debug"/>
+      <Project Name="DaytimeServer" ConfigName="Debug"/>
+      <Project Name="EchoClient" ConfigName="Debug"/>
+      <Project Name="EchoServer" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="DaytimeClient" ConfigName="Release"/>
+      <Project Name="DaytimeServer" ConfigName="Release"/>
+      <Project Name="EchoClient" ConfigName="Release"/>
+      <Project Name="EchoServer" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
