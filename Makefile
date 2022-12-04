@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ EchoServer - Debug ]----------"
-	@cd "Echo(TCP)/EchoServer/EchoServer" && "$(MAKE)" -f  "EchoServer.mk"
+	@echo "----------Building project:[ EchoClient - Debug ]----------"
+	@cd "Echo(TCP)/EchoClient/EchoClient" && "$(MAKE)" -f  "EchoClient.mk"
 clean:
-	@echo "----------Cleaning project:[ EchoServer - Debug ]----------"
-	@cd "Echo(TCP)/EchoServer/EchoServer" && "$(MAKE)" -f  "EchoServer.mk" clean
+	@echo "----------Cleaning project:[ EchoClient - Debug ]----------"
+	@cd "Echo(TCP)/EchoClient/EchoClient" && "$(MAKE)" -f  "EchoClient.mk" clean

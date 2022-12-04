@@ -5,7 +5,7 @@
 #include <unistd.h>
 using namespace std;
 
-int main(int argc, char* argv[]) {
+int main() {
 struct sockaddr_in {
  short sin_family;
  unsigned short sin_port;
